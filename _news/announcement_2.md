@@ -1,12 +1,22 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: CVPR 2025 Acceptances
+date: 2024-05-10
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+I'm pleased to announce that we have two papers accepted to CVPR 2025:
+
+### FDS: Text-Driven Image Editing
+
+We propose FDS, a text-driven image editing method based on frequency-domain decomposition, which enables fine-grained control over local frequency components and extends naturally to 3D texture editing. Congratulations to Yufan on this excellent work!
+
+### UMGen: Unified Multi-Modal Driving Scene Generation
+
+Our work UMGen has been accepted to CVPR 2025! UMGen is a unified generative framework that simultaneously predicts and generates key elements of driving scenes—including ego-vehicle actions, maps, traffic participants, and images—enabling both free-form imagination and user-controlled scenario synthesis. Congratulations to Yanhao on this achievement.
+
+These acceptances reflect our lab's continued efforts to push the boundaries of computer vision and machine learning. I'm incredibly proud of my students' hard work and dedication to these challenging research problems.
 
 ---
 

@@ -2,24 +2,50 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Postdoctoral Researcher at EPFL
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>IVRL, EPFL</p>
+    <p>Lausanne, Switzerland</p>
+    <p>Tong.Zhang@epfl.ch</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# Dr. Tong Zhang
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a postdoctoral researcher working in machine learning and computer vision at EPFL with Prof. Sabine Süsstrunk and Dr. Mathieu Salzmann. I obtained my Ph.D. degree from the Australian National University (ANU) in 2020 under the supervision of Prof. Richard Hartley, Prof. Faith Porikli, Prof. Mehrtash Harandi, and Prof. Hongdong Li. After submitting my thesis, I worked on a semantic geo-localization project along with some Ph.D. students at ANU. During my Ph.D. study, I received the Best Student Paper honorable mention at ACCV 2016 and the Paper Award Finalist at CVPR 2020.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to that, I received a master's degree from New York University in 2014 and a bachelor's degree from Beihang University in 2011.
+
+## Research Focus
+
+Currently, my focus lies in unifying representations across different modalities to enable comprehensive interpretation of deep learning models, thereby facilitating broader applications in fields like time-series prediction and generation.
+
+IVRL is always taking highly motivated Ph.D. students, who receive fellowships from the computer science (IC) department. We also have limited positions for self-funded visiting students. 
+
+Every summer, we take some excellent students from the Summer@EPFL program.
+
+## Awards
+
+- 2020 CVPR Paper Award Nominee 
+- 2019 Chinese Government Award for Outstanding Self-financed Students Abroad
+- 2019 ICML Traveling Awards
+- 2017 NeurIPS Traveling Awards
+- 2017 CSIRO DATA61 Top-up scholarship
+- 2016 ACCV Best Student Paper Honorable Mention
+- 2015 ANU Postgraduate research scholarship and HDR fee Remission Merit Scholarship
+- 2012-14 Graduate Center Merit-Based Scholarship of NYU
+- 2010 Outstanding student of Beihang University
+
+## Professional Activities
+
+I've been a committee member (reviewer) for various top-tier journals (TPAMI, TIP, IEEE Signal Processing Magazine, TMLR), and conferences (CVPR, NeurIPS, ICML, ICLR, ECCV, ICCV, AAAI, ACCV, and WACV).
+
+I will be serving as an Area Chair for NeurIPS 2025.

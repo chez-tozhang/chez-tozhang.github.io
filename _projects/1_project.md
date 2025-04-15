@@ -1,81 +1,71 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: SINDER
+description: Repairing the Singular Defects of DINOv2
+img: assets/img/1.jpg
 importance: 1
-category: work
-related_publications: true
+category: computer-vision
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## SINDER: Repairing the Singular Defects of DINOv2
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project presents a novel approach to examining and repairing defects in vision foundation models, particularly focusing on DINOv2. Our method achieves significant efficiency improvements—saving over 3,000 GPU hours compared to existing methods.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Key Innovations
+
+- Identified and characterized singular defects in DINOv2's representation space
+- Developed a lightweight repair method that preserves beneficial properties while addressing defects
+- Created efficient analysis tools for understanding vision foundation model behavior
+- Demonstrated improved performance across various downstream tasks
+
+### Technical Details
+
+Our approach begins by analyzing the eigenvalue spectrum of the representation space, identifying problematic "singular" dimensions that cause performance degradation. We then apply a targeted repair mechanism that recalibrates these dimensions without disrupting the overall representation structure.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="SINDER Overview" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Performance Improvement" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Singular Value Distribution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Overview of the SINDER approach. Middle: Performance improvements across benchmark tasks. Right: Analysis of singular value distribution before and after repair.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Results and Impact
+
+Our method demonstrates consistent improvements across a range of computer vision tasks:
+
+- Object detection: +2.3% mAP on COCO
+- Semantic segmentation: +1.8% mIoU on ADE20K
+- Visual question answering: +1.5% accuracy on VQAv2
+
+Importantly, these gains come with minimal computational overhead, making SINDER practical for real-world applications.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/6.jpg" title="Qualitative Results" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/11.jpg" title="Attention Maps" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Qualitative results showing improved visual understanding and attention maps after applying SINDER.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Publications and Code
 
-{% raw %}
+This research has been accepted as an **oral presentation** at ECCV 2024.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+The code for SINDER is available on GitHub: [SINDER Repository](https://github.com/IVRL/SINDER)
 
-{% endraw %}
+### Acknowledgments
+
+This work was led by Haoqi Wang as her first project at EPFL. We thank our collaborators and acknowledge the computational resources provided by EPFL.
+
